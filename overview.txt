@@ -1,0 +1,90 @@
+FENRIR ARENA - ONLINE GAMING WEBSITE
+Project Overview
+
+Project Owner: Fenrir Project
+Product Name: Fenrir Arena
+Project Type: Online Gaming Website (Browser-based Casual Gaming Portal)
+
+------------------------------------------------------------
+1. WHAT IS BEING BUILT
+------------------------------------------------------------
+Fenrir Arena is a browser-based gaming portal where visitors can:
+- Browse a catalog of casual games organized by category.
+- Play games directly in the browser without downloads.
+- Create an account, log in, and track personal high scores.
+- View a leaderboard for each game.
+- Read "How to Play" instructions before playing.
+
+The site consists of 8 pages and 6 playable games, with a
+lightweight backend handling user accounts, score storage, and
+leaderboards.
+
+------------------------------------------------------------
+2. DELIVERABLE CATEGORIES
+------------------------------------------------------------
+- Frontend pages (8 files)
+- Playable games (6 files)
+- Backend service (account, score, and leaderboard endpoints)
+- Documentation (README.md)
+
+All deliverables are source code files (HTML, CSS, JavaScript,
+backend code) plus supporting documentation. No physical
+production is required.
+
+------------------------------------------------------------
+3. CORE PAGES (8)
+------------------------------------------------------------
+- Home Page (index.html)
+- Game Library Page (library.html)
+- Individual Game Page (game.html)
+- Login Page (login.html)
+- Sign Up Page (signup.html)
+- User Profile Page (profile.html)
+- About Page (about.html)
+- Contact Page (contact.html)
+
+------------------------------------------------------------
+4. GAMES (6)
+------------------------------------------------------------
+Arcade: Brick Breaker, Snake Classic
+Puzzle: Memory Match, 2048 Tile Merge
+Racing: Endless Runner, Sky Dash
+
+Each game runs inside an HTML5 Canvas element, is controllable
+using keyboard or mouse input, and displays the player's current
+score during play.
+
+------------------------------------------------------------
+5. BRAND IDENTITY
+------------------------------------------------------------
+Product Name: Fenrir Arena
+Tagline: "Play. Compete. Conquer." (use verbatim, do not rephrase)
+Primary background: Charcoal Black #1A1A1F
+Surface / header: Wolf Gray #2E2E38
+Accent / buttons: Ember Orange #FF7A30
+Secondary accent: Frost Blue #4FB6E8
+Text: Off White #F5F5F7
+
+------------------------------------------------------------
+6. BACKEND
+------------------------------------------------------------
+Framework: Node.js with Express
+Database: SQLite
+Endpoints: sign up, login, save score, leaderboard
+
+------------------------------------------------------------
+7. ASSETS PROVIDED BY CLIENT
+------------------------------------------------------------
+- reference_image.png : sample Home Page layout, used as a
+  visual guide for the header, hero banner, tagline placement,
+  and featured games section
+
+------------------------------------------------------------
+8. REFERENCE DOCUMENTS
+------------------------------------------------------------
+- scope_of_work.txt : detailed breakdown of deliverables
+- assets.pdf : Project Requirements Document (brief)
+- instructions.md : full build instructions for the developer
+- reference_image.png : sample layout reference for Home Page
+  (provided by client)
+- rubrics.txt : evaluation checklist for the final submission
