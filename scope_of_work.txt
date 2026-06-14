@@ -1,0 +1,161 @@
+FENRIR ARENA - ONLINE GAMING WEBSITE
+Scope of Work
+
+------------------------------------------------------------
+1. PAGES TO BUILD (8 PAGES TOTAL)
+------------------------------------------------------------
+1. Home Page (index.html)
+   - Hero banner displaying the heading "Fenrir Arena"
+   - Tagline "Play. Compete. Conquer." displayed verbatim
+   - Featured games section showing exactly 4 games
+   - "Browse All Games" button linking to library.html
+   - Layout follows the client-provided reference_image.png
+
+2. Game Library Page (library.html)
+   - Grid containing all 6 games
+   - Category filter buttons: Arcade, Puzzle, Racing
+   - Each game card shows: thumbnail image, game title, category tag
+
+3. Individual Game Page (game.html)
+   - HTML5 Canvas element where the game runs
+   - Game title and short description
+   - "How to Play" section
+   - Leaderboard table showing top 10 scores, sorted highest to lowest
+
+4. Login Page (login.html)
+   - Email input field
+   - Password input field
+   - Button labelled "Login"
+   - Link to Sign Up Page
+
+5. Sign Up Page (signup.html)
+   - Username input field
+   - Email input field
+   - Password input field
+   - Button labelled "Create Account"
+   - Link to Login Page
+
+6. User Profile Page (profile.html)
+   - Display the logged-in user's username
+   - Table listing the user's best score for each game
+
+7. About Page (about.html)
+   - Text section describing Fenrir Arena
+   - Tagline "Play. Compete. Conquer." displayed verbatim
+
+8. Contact Page (contact.html)
+   - Name input field
+   - Email input field
+   - Message input field
+   - Button labelled "Send Message"
+
+------------------------------------------------------------
+2. GAMES TO BUILD (6 TOTAL)
+------------------------------------------------------------
+Category: Arcade
+- Brick Breaker: Left/Right arrow keys move the paddle
+- Snake Classic: arrow keys change direction
+
+Category: Puzzle
+- Memory Match: mouse click flips cards
+- 2048 Tile Merge: arrow keys merge tiles
+
+Category: Racing
+- Endless Runner: spacebar triggers jump
+- Sky Dash: arrow keys steer, spacebar boosts
+
+Each game must run inside an HTML5 Canvas element, must be
+embedded on its own Individual Game Page, and must display the
+player's current score during play.
+
+Score Submission: when a game ends, the final score must be sent
+to the backend save score endpoint. The score is saved only if
+the player is logged in.
+
+------------------------------------------------------------
+3. BACKEND REQUIREMENTS
+------------------------------------------------------------
+Framework: Node.js with Express
+Database: SQLite
+
+Endpoints:
+- Sign up: accepts username, email, and password; stores
+  password as a hashed value
+- Login: accepts email and password; returns a session that
+  persists while the browser tab is open
+- Save score: accepts username, game name, score value, and
+  date; stores the record
+- Leaderboard: accepts a game name; returns the top 10 scores
+  for that game, sorted highest to lowest
+
+Data fields:
+- User account: username, email, hashed password
+- Score record: username, game name, score value, date
+
+------------------------------------------------------------
+4. BRAND & DESIGN REQUIREMENTS
+------------------------------------------------------------
+- Site name "Fenrir Arena" must appear in the website header on
+  every page
+- Tagline "Play. Compete. Conquer." must appear verbatim on the
+  Home Page and the About Page - do not rephrase
+- Colour palette:
+  Charcoal Black #1A1A1F (primary background)
+  Wolf Gray #2E2E38 (surface / header)
+  Ember Orange #FF7A30 (accent / buttons)
+  Frost Blue #4FB6E8 (secondary accent)
+  Off White #F5F5F7 (text)
+- Layout must be usable at screen widths from 360px (mobile) to
+  1920px (desktop)
+- All 8 pages must apply the colour palette above
+- All pages must include the website header showing "Fenrir Arena"
+
+------------------------------------------------------------
+5. ASSETS PROVIDED BY CLIENT
+------------------------------------------------------------
+- reference_image.png: sample Home Page layout. Use as a visual
+  guide for the header, hero banner, tagline placement, and
+  featured games section.
+
+------------------------------------------------------------
+6. FILE NAMING CONVENTION
+------------------------------------------------------------
+Page files: [pagename].html / .css / .js
+  index.html, library.html, game.html, login.html, signup.html,
+  profile.html, about.html, contact.html
+
+Game files: games/[gamename].js
+  games/brick-breaker.js, games/snake-classic.js,
+  games/memory-match.js, games/2048-tile-merge.js,
+  games/endless-runner.js, games/sky-dash.js
+
+------------------------------------------------------------
+7. FOLDER STRUCTURE
+------------------------------------------------------------
+fenrir-arena/
+  index.html, library.html, game.html, login.html, signup.html,
+  about.html, profile.html, contact.html
+  css/styles.css
+  games/ (brick-breaker.js, snake-classic.js, memory-match.js,
+          2048-tile-merge.js, endless-runner.js, sky-dash.js)
+  backend/server.js
+  backend/routes/accounts.js
+  backend/routes/scores.js
+  backend/database.sqlite
+  README.md
+
+------------------------------------------------------------
+8. FILE DELIVERY FORMAT
+------------------------------------------------------------
+- All code delivered in a single GitHub repository
+- A README.md file explaining how to run the project locally
+- Total source files: 17 (8 pages + 6 games + 2 backend routes
+  + 1 README)
+
+------------------------------------------------------------
+9. OUT OF SCOPE
+------------------------------------------------------------
+- Payment or checkout systems
+- Real-time multiplayer gameplay
+- Native mobile apps (iOS or Android)
+- Admin dashboard for managing users
