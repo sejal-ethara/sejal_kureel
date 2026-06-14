@@ -1,0 +1,112 @@
+FENRIR ARENA - ONLINE GAMING WEBSITE
+Scope of Work
+
+------------------------------------------------------------
+1. PAGES TO BUILD (8 PAGES TOTAL)
+------------------------------------------------------------
+1. Home Page
+   - Hero banner with tagline "Play. Compete. Conquer."
+   - Featured games section (4 games)
+   - "Browse All Games" button linking to Game Library Page
+
+2. Game Library Page
+   - Grid of all games (minimum 6 games)
+   - Category filter buttons: Arcade, Puzzle, Racing
+   - Each game card shows: game thumbnail, game title, category tag
+
+3. Individual Game Page (template used for each of the 6 games)
+   - Embedded playable game area (HTML5 Canvas)
+   - Game title and short description
+   - "How to Play" instructions section
+   - Leaderboard table showing top 10 scores
+
+4. Login Page
+   - Email field
+   - Password field
+   - "Login" button
+   - Link to Sign Up Page
+
+5. Sign Up Page
+   - Username field
+   - Email field
+   - Password field
+   - "Create Account" button
+   - Link to Login Page
+
+6. User Profile Page
+   - Display username
+   - Table of personal best scores per game
+
+7. About Page
+   - Text section describing Fenrir Arena
+   - Tagline displayed: "Play. Compete. Conquer."
+
+8. Contact Page
+   - Contact form with: Name field, Email field, Message field
+   - "Send Message" button
+
+------------------------------------------------------------
+2. GAMES TO INCLUDE (6 GAMES MINIMUM)
+------------------------------------------------------------
+Category: Arcade
+- Game 1: Brick Breaker
+- Game 2: Snake Classic
+
+Category: Puzzle
+- Game 3: Memory Match
+- Game 4: 2048 Tile Merge
+
+Category: Racing
+- Game 5: Endless Runner
+- Game 6: Sky Dash
+
+Each game must be playable using keyboard controls (arrow keys
+and spacebar) and must run inside an HTML5 Canvas element
+embedded on its Individual Game Page.
+
+------------------------------------------------------------
+3. BACKEND REQUIREMENTS
+------------------------------------------------------------
+- User accounts stored with: username, email, hashed password
+- Score records stored with: username, game name, score value, date
+- Leaderboard endpoint returns top 10 scores for a given game,
+  sorted highest to lowest
+- Login session must persist while the browser tab is open
+
+------------------------------------------------------------
+4. DESIGN REQUIREMENTS
+------------------------------------------------------------
+- Color palette must use:
+  Wolf Gray #2E2E38, Ember Orange #FF7A30, Frost Blue #4FB6E8,
+  Charcoal Black #1A1A1F, Off White #F5F5F7
+- Tagline "Play. Compete. Conquer." must appear on the Home Page
+  and the About Page
+- Site name "Fenrir Arena" must appear in the website header on
+  every page
+- Layout must be responsive: usable on screen widths from 360px
+  (mobile) to 1920px (desktop)
+
+------------------------------------------------------------
+5. TECHNOLOGY REQUIREMENTS
+------------------------------------------------------------
+- Frontend: HTML, CSS, JavaScript
+- Games: HTML5 Canvas + JavaScript
+- Backend: Node.js with Express
+- Database: SQLite
+- All code must be delivered in a single GitHub repository
+
+------------------------------------------------------------
+6. FILE DELIVERY FORMAT
+------------------------------------------------------------
+- Source code folder containing all pages, game scripts, and
+  backend files
+- A README.md file explaining how to run the project locally
+- All images used in the site must be in PNG or SVG format
+
+------------------------------------------------------------
+7. OUT OF SCOPE
+------------------------------------------------------------
+- Payment or checkout systems
+- Real-time multiplayer gameplay
+- Native mobile apps (iOS or Android)
+- Admin dashboard for managing users
