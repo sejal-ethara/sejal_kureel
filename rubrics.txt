@@ -1,0 +1,82 @@
+FENRIR ARENA - ONLINE GAMING WEBSITE
+Rubrics 
+
+1. The website header on every page displays the text "Fenrir Arena".
+
+2. The Home Page hero banner displays the heading "Fenrir Arena".
+
+3. The Home Page displays the tagline "Play. Compete. Conquer." exactly as written.
+
+4. The About Page displays the tagline "Play. Compete. Conquer." exactly as written.
+
+5. The Home Page featured games section displays exactly 4 game cards.
+
+6. The Home Page contains a button labelled "Browse All Games".
+
+7. The "Browse All Games" button navigates to the Game Library Page.
+
+8. The Game Library Page displays exactly 6 game cards.
+
+9. The Game Library Page contains a category filter button labelled "Arcade".
+
+10. The Game Library Page contains a category filter button labelled "Puzzle".
+
+11. The Game Library Page contains a category filter button labelled "Racing".
+
+12. Each game card on the Game Library Page displays a thumbnail image.
+
+13. Each game card on the Game Library Page displays a game title.
+
+14. Each game card on the Game Library Page displays a category tag.
+
+15. The Individual Game Page contains an HTML5 Canvas element.
+
+16. The Individual Game Page displays the game title.
+
+17. The Individual Game Page displays a short game description.
+
+18. The Individual Game Page contains a section titled "How to Play".
+
+19. The Individual Game Page contains a leaderboard table.
+
+20. The leaderboard table displays exactly 10 rows of score data.
+
+21. The leaderboard table displays scores in descending order.
+
+22. The Login Page contains an email input field.
+
+23. The Login Page contains a password input field.
+
+24. The Login Page contains a button labelled "Login".
+
+25. The Login Page contains a link to the Sign Up Page.
+
+26. The Sign Up Page contains a username input field.
+
+27. The Sign Up Page contains an email input field.
+
+28. The Sign Up Page contains a password input field.
+
+29. The Sign Up Page contains a button labelled "Create Account".
+
+30. The Sign Up Page contains a link to the Login Page.
+
+31. The User Profile Page displays the logged-in username.
+
+32. The User Profile Page contains a score table.
+
+33. The Contact Page contains a Name input field.
+
+34. The Contact Page contains an Email input field.
+
+35. The Contact Page contains a Message input field.
+
+36. The Contact Page contains a button labelled "Send Message".
+
+37. The backend includes a sign up endpoint.
+
+38. The backend includes a login endpoint.
+
+39. User passwords are stored as hashed values.
+
+40. The backend includes a save score endpoint.
